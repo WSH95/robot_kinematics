@@ -234,6 +234,12 @@ namespace myRoboKine
 
         return -sqrt(reward);
     }
+
+    double RobotKinematics::calIkOptimal_Left(const Eigen::Vector3d &foot_pos_, const Eigen::Vector3d &current_angles,
+                                              Eigen::Vector3d &joint_angles_)
+    {
+
+    }
 }
 
 
